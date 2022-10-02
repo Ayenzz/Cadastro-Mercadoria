@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    background: linear-gradient(to bottom right ,#00BfFF 0%,#4B0082 100%);
+}
+
+.tela-cadastro{
+    border-radius: 34px;    
+    margin: 1em;
+    padding: 1.5em;
+    height: 500px;
+    width: 640px;    
+    background: linear-gradient(to right, #C0C0C0 0% , white 100%);
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    
+}
+.nome-produto{
+
+    display: flex;
+    align-items: center;    
+}
+.cod-ean{
+    display: flex;
+    align-items: center;     
+}
+.cod-interno{
+    display: flex;
+    align-items: center;     
+}
+

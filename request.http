@@ -1,0 +1,33 @@
+POST http://localhost:4002/produtos
+content-type: application/json
+
+{
+    "name" : "Caderno 40 Folhas",
+    "price" :  2.99
+    
+}
+
+###
+
+GET http://localhost:4002/produtos
+
+###
+
+GET http://localhost:4002/produtos/b88b7574-8f32-4caa-8ae0-c603bffb3795
+
+###
+
+PUT http://localhost:4002/produtos/dd80c709-92b1-47af-a871-2c93ac67c1d1
+content-type: application/json
+
+{
+    "name" : "Borracha",
+    "price" : 1.99
+}
+
+###
+
+
+DELETE http://localhost:4002/produtos/7d99a638-d911-4cf0-b3a8-41f67f559943
+
+###

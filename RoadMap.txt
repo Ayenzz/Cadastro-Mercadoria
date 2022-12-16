@@ -1,0 +1,25 @@
+
+RoadMap.
+
+
+módulo mercadoria [cadastrar , listar, gestao produto , alteracao de preco, familia produto ]
+	Relatorio de alteracao de preco
+
+módulo estoque [gestao estoque, acerto estoque, baixa-uso-consumo, inventário, receita, transformado/associado (carne kg p/ bdj ) x (pct p/ un ex.: Balas, pirulitos), Trocas]
+
+modulo fornecedor [cadastrar, listar]
+
+módulo financeiro [contas a pagar, contas a receber, agenda]
+	lancamento manual
+
+módulo fiscal [nfe entrada, nfe saida, nf despesa, transporte (CTE https://www.cte.fazenda.gov.br/portal/consultaRecaptcha.aspx?tipoConsulta=resumo&tipoConteudo=cktLvUUKqh0=)]
+	lancamento manual/ leitor xml.
+	transporte link entrada/saida custo transp x merc.
+	nfe entrada => contas a pagar nfe saida => contas a receber..? exceto transferencia lojas, cds.
+
+módulo contabil [sped fiscal, sped contribuicoes, icms simples nacional, legislacao, tipo entrada(tipo despesa), tipo saida]
+	Legislacao => ? ncm, cfop, aliquota, mva, pauta, pis cofins ?
+
+modulo compra/venda [ pedido compras (valida trocas), orcamento de venda, faturamento ~~compra x venda(liquido, bruto)~~ ]
+
+modulo operacional [ Cadastro usuario (troca senha), Cadastro loja, Login]

@@ -1,7 +1,7 @@
 {
-  "name": "cadastro-mercadorias",
+  "name": "ecoshop",
   "version": "1.0.0",
-  "description": "Cadastro e Consulta de Mercadorias",
+  "description": "eCommerce / ERP",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js"

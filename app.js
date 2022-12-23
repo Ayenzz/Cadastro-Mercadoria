@@ -18,14 +18,15 @@ fs.readFile("produtos.json", "utf-8", (err, data) =>{
 })
 
 /** Metodos.
- * app.get = Buscar uma informação
- * app.put = Alterar uma informação
- *app.post = Inserir uma informação
- *app.delete = Deletar uma informação
+ *app.get = Buscar um/mais dados;
+ *app.put = Altera um/mais dados, porem envia todos os outros parametros juntos;
+ *app.patch = Altera um/mais dados, é usado para atualização parcial, quando você não quer mandar o payload completo;
+ *app.post = Inserir um dado;
+ *app.delete = Deletar um dado;
 */
 
 /** Parametros.
- * Body => Sempmre que eu quiser enviar dados para minha aplicação
+ * Body => Sempre que eu quiser enviar dados para minha aplicação
  * Params => /produts/731829371289
  * Query => /produts?id=98713918&value=1673561275
  */
